@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tierra Bella Clickable Flyer</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #111827;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    a.flyer-link {
+      display: block;
+      width: min(100%, 1024px);
+      line-height: 0;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+      text-decoration: none;
+    }
+    a.flyer-link:focus-visible {
+      outline: 4px solid #fbbf24;
+      outline-offset: 6px;
+    }
+    img.flyer {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <a class="flyer-link" href="https://tierrabella.org/" target="_blank" rel="noopener noreferrer" aria-label="Open Tierra Bella website">
+    <img class="flyer" src="Tandem%20Poppies%20Flyer%203.10.26.jpg" alt="Tierra Bella bicycle tour flyer for April 12, 2026" />
+  </a>
+</body>
+</html>
